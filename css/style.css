@@ -1,0 +1,1064 @@
+body{
+	background: url(../img/1.jpg) repeat center;
+}
+
+.web-page{
+	width: 1080px;
+	min-height: 4000px;
+	margin: auto;
+	background-color: white;
+}
+
+.header{
+	float: left;
+	width: 1000px;
+	height: 120px;
+	margin-left: 39px;
+}
+
+/*.................................................... Header top...................................................................*/ 
+
+.header-top{
+	float: left;
+	width: 996px;
+	height: 30px;
+	margin-top: 10px;
+}
+
+.header-top-left{
+ 	float: left;
+ 	width:392px;
+ 	height:48px;
+ }
+
+.header-top-left a{
+	text-decoration: none;
+	font-family: Calibri;
+	color: gray;
+	font-size: 16px;
+}
+
+.header-top-left a:hover{
+	color: blue;
+}
+
+ .header-top-right{
+ 	float: left;
+ 	width: 600px;
+ 	height: 48px;
+ }
+
+.header-top-right .header-top-right-select-1{
+	margin-left: 400px;
+	font-family: Calibri;
+	border: 1px solid white;
+	font-size: 16px;
+	color: gray;
+}
+
+.header-top-right .header-top-right-select-2{
+	margin-left: 20px;
+	font-family: Calibri;
+	border: 1px solid white;
+	font-size: 16px;
+	color: gray;
+}
+
+/*.................................................... Header Down...................................................................*/ 
+
+.header-down{
+	float: left;
+	width: 996px;
+	height: 50px;
+	margin-top: 10px;
+}
+
+ .header-down-left{
+ 	float: left;
+ 	width:392px;
+ 	height:98px;
+ }
+
+ .header-down-right{
+ 	float: left;
+ 	width: 600px;
+ 	height: 98px;
+ }
+
+ .header-down-right ul li{
+ 	list-style: none;
+ 	float: left;
+ 	margin-left: 40px;
+ }
+
+.header-down-right ul li a{
+	text-decoration: none;
+	font-weight: 600;
+	font-family: Calibri;
+	text-transform: uppercase;
+}
+
+.header-down-right ul li a:hover{
+	color: blue;
+}
+
+.banner{
+	float: left;
+	width:1000px;
+	height: 500px;
+	margin-left: 39px;
+	background-image: url(../img/banner/home-banner.jpg);
+}
+
+.banner-top {
+	float: left;
+	width: 1000px;
+	height: 170px;
+}
+
+.banner-down {
+	float: left;
+	width: 1000px;
+	height: 330px;
+}
+
+.banner-top h3{
+	color: white;
+	font-family: arial;
+	text-transform: uppercase;
+	margin-left: 590px;
+	margin-top: 180px;
+}
+
+.banner-down h1{
+	color: white;
+	margin: auto;
+	font-size: 120px;
+	text-align: center;
+}
+
+.banner-down p{
+	color: white;
+	font-family: arial;
+	text-align: center;
+}
+
+/*start About_Mission_Vision css */
+
+.About_Mission_Vision{
+	float: left;
+	width: 1080px;
+	height: 700px;
+	background-color:rgb(249, 249, 249) ;
+}
+
+.About_Mission_Vision_Check{
+	float: left;
+	width: 882px;
+	height: 140px;
+	margin-left: 99px;
+	margin-top: -80px;
+	background-color:rgb(255, 255, 255) ;
+}
+
+.Check_Check_in{
+	float: left;
+	width: 220px;
+	height: 100px;
+	margin-top: 20px;
+	border-right: 1px solid rgb(218, 219, 220);
+}
+
+.Check_Check_out{
+	float: left;
+	width: 220px;
+	height: 100px;
+	margin-top: 20px;
+	border-right: 1px solid rgb(218, 219, 220);
+}
+
+.Check_Total_guests{
+	float: left;
+	width: 220px;
+	height: 100px;
+	margin-top: 20px;
+}
+
+.Check_Check_Avilibity{
+	float: left;
+	width: 220px;
+	height: 140px;
+	background-color: rgb(211, 227, 253);
+}
+
+.Check_Check_in p{
+	margin-left: 30px;
+	text-transform: uppercase;
+	font-family: Calibri;
+	font-size: 16px;
+	color: rgb(68, 76, 85);
+}
+
+
+.Check_Check_in .day{
+	position: absolute;
+	font-size: 50px;
+	margin-left: 30px;
+	margin-top: -25px;
+	font-weight: 900px;
+	font-family: "Playfair Display", serif;
+	color: #000;
+	letter-spacing: 1;
+
+}
+
+.Check_Check_in .month {
+    margin-left: 90px;
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: "Playfair Display", serif;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.Check_Check_out p{
+	margin-left: 30px;
+	text-transform: uppercase;
+	font-family: Calibri;
+	font-size: 16px;
+	color: rgb(68, 76, 85);
+}
+
+
+.Check_Check_out .day{
+	position: absolute;
+	font-size: 50px;
+	margin-left: 30px;
+	margin-top: -25px;
+	font-weight: 900px;
+	font-family: "Playfair Display", serif;
+	color: #000;
+	letter-spacing: 1;
+
+}
+
+.Check_Check_out .month {
+    margin-left: 90px;
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: "Playfair Display", serif;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+
+.Check_Total_guests p{
+	margin-left: 30px;
+	text-transform: uppercase;
+	font-family: Calibri;
+	font-size: 16px;
+	color: rgb(68, 76, 85);
+}
+
+.Check_Total_guests .day{
+	position: absolute;
+	font-size: 50px;
+	margin-left: 30px;
+	margin-top: -25px;
+	font-weight: 900px;
+	font-family: "Playfair Display", serif;
+	color: #000;
+	letter-spacing: 1;
+
+}
+
+.Check_Total_guests .month {
+    margin-left: 90px;
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: "Playfair Display", serif;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.Check_Check_Avilibity p{
+	margin-left: 30px;
+	margin-top: 30px;
+	text-transform: capitalize;
+	font-family: Calibri;
+	font-size: 16px;
+	color: rgb(68, 76, 85);
+}
+
+.Check_Check_Avilibity .button{
+	width: 160px;
+	height: 40px;
+	margin-left: 30px;
+	color: white;
+	background-color: #4d8eff;
+	border: none;
+}
+
+.Check_Check_Avilibity .button:hover{
+	color: #4d8eff;
+	border: 1px solid #4d8eff;
+	background-color:rgb(249, 249, 249) ;
+}
+
+.About_Mission_Vision_Text_top{
+	float: left;
+	width: 1080px;
+	height: 170px;
+	margin-top: 90px;
+	background-color:rgb(249, 249, 249) ;
+}
+
+
+.About_Mission_Vision_Text_top p{
+	text-align: center;
+	font-family: "Roboto",sans-serif;
+	font-size: 12px;
+	text-transform: uppercase;
+	margin-top: 40px;
+	font-weight: 600;
+	color: gray;
+}
+
+.About_Mission_Vision_Text_top h2{
+	text-align: center;
+	font-family: "Playfair Display", serif;
+	font-size: 40px;
+	margin-top: 0px;
+	font-weight: 700;
+}
+
+
+
+.About_Mission_Vision_Text_down{
+	float: left;
+	width: 1080px;
+	height: 390px;
+	background-color:rgb(249, 249, 249) ;
+}
+
+.About_Mission_Vision_Text_down p{
+	text-align: center;
+	font-family: "Roboto",sans-serif;
+	font-size: 12px;
+	margin-top: 10px;
+	font-weight: 600;
+	color: gray;
+	line-height: 1.5;
+}
+
+.About_Mission_Vision_Text_down .button{
+	width: 160px;
+	height: 40px;
+	margin-top: 20px;
+	margin-left: 460px;
+	color: white;
+	background-color: #4d8eff;
+	border: none;
+}
+
+.About_Mission_Vision_Text_down .button:hover{
+	color: #4d8eff;
+	border: 1px solid #4d8eff;
+	background-color:rgb(249, 249, 249) ;
+}
+
+
+/*--------------Our Room -------------*/
+
+.Our_Room{
+	float: left;
+	width: 1080px;
+	height: 400px;
+	background-color: rgb(241, 249, 255);
+}
+
+.Our_Room_top{
+	float: left;
+	width: 640px;
+	height: 320px;
+	margin-top: -170px;
+	margin-left: 220px;
+	background-image: url(../img/video-1.jpg);
+}
+
+.Our_Room_down{
+	float: left;
+	width: 1080px;
+	height: 250px;
+}
+
+.Our_Room_down p{
+	text-align: center;
+	font-family: "Roboto",sans-serif;
+	font-size: 12px;
+	text-transform: uppercase;
+	margin-top: 40px;
+	font-weight: 600;
+	color: gray;
+}
+
+.Our_Room_down h2{
+	text-align: center;
+	font-family: "Playfair Display", serif;
+	font-size: 30px;
+	margin-top: 0px;
+	font-weight: 700;
+}
+
+.Our_Room_down_2{
+	float: left;
+	width: 1080px;
+	height: 150px;
+}
+
+.Our_Room_down_2 p{
+	text-align: center;
+	font-family: "Roboto",sans-serif;
+	font-size: 12px;
+	margin-top: -10px;
+	font-weight: 600;
+	color: gray;	
+}
+
+
+/*--------------Delux Room-------------*/
+
+.deluxe_room{
+	float: left;
+	width: 1080px;
+	height: 440px;
+}
+
+.deluxe_room_left{
+	float: left;
+	width: 536px;
+	height: 360px;
+	margin-top: 40px;
+}
+
+.deluxe_room_right{
+	float: left;
+	width: 515px;
+	height: 360px;
+	margin-top: 40px;
+	margin-left: 25px;
+}
+
+.deluxe_room_right_top{
+	float: left;
+	width: 540px;
+	height: 190px;
+}
+
+.deluxe_room_right_down{
+	float: left;
+	width: 540px;
+	height: 170px;
+}
+
+.deluxe_room_right_top .price{
+	margin-left: 40px;
+	margin-top: 0px;
+	font-size: 35px;
+	font-family: "Roboto",sans-serif;
+	color: #4d8eff;
+}
+
+
+
+.deluxe_room_right_top .heading-mid{
+	margin-left: 40px;
+	margin-top: -10px;
+	font-size: 32px;
+	font-family: "Playfair Display", serif;
+	color: #222222;
+}
+
+.deluxe_room_right_top .p-text{
+	margin-left: 40px;
+	text-align: justify;
+	font-weight: 500;
+	font-family:"Roboto",sans-serif;
+	font-size: 16px;
+	color: gray;
+	line-height: 1.5;
+}
+
+.deluxe_room_right_down .button{
+	width: 130px;
+	height: 45px;
+	margin-top: 5px;
+	margin-left: 40px;
+	color: white;
+	background-color: #4d8eff;
+	border: none;
+}
+
+.deluxe_room_right_down .button:hover{
+	color: #4d8eff;
+	border: 1px solid #4d8eff;
+	background-color:rgb(249, 249, 249) ;
+}
+
+.deluxe_room_right_down .deluxe_room_right_down_item-left{
+	float: left;
+	width: 220px;
+	height: 170px;
+}
+
+.deluxe_room_right_down .deluxe_room_right_down_item-right{
+	float: left;
+	width: 310px;
+	height: 170px;
+}
+
+.deluxe_room_right_down_item-left ul{
+	list-style: none;
+}
+
+.deluxe_room_right_down_item-left li{
+	text-align: justify;
+	font-family:"Roboto",sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	color: gray;
+	line-height: 1.5;
+}
+
+.deluxe_room_right_down_item-right ul{
+	list-style: none;
+}
+
+.deluxe_room_right_down_item-right li{
+	text-align: justify;
+	font-family:"Roboto",sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	color: gray;
+	line-height: 1.5;
+}
+
+/*--------------End CSS Delux Room-------------*/
+
+
+/*--------------Start CSS ourblog-post-area-------------*/
+
+.ourblog-post-area{
+	float: left;
+	width: 1080px;
+	min-height: 1200px;
+	background-color: rgb(241, 249, 255);
+}
+
+.ourblog-post-area-top{
+	float: left;
+	width: 1080px;
+	height: 600px;
+	background-color: rgb(241, 249, 255);
+}
+
+.ourblog-post-area-top-fanny{
+	float: left;
+	width: 880px;
+	height: 300px;
+	margin-top: 150px;
+	margin-left: 100px;
+	background-color: white;
+}
+
+.ourblog-post-area-top-fanny img{
+	margin-left: 397px;
+	margin-top: -25px;
+}
+
+
+.ourblog-post-area-top-fanny section{
+	font-family: "Playfair Display", serif;
+	font-size: 21px;
+	text-align: center;
+	margin-top: 50px;
+	font-weight: 700;
+}
+
+
+.ourblog-post-area-top-fanny-text{
+	float: left;
+	width: 550px;
+	height: 100px;
+	margin-left: 165px;
+}
+
+.ourblog-post-area-top-fanny-text p{
+	font-family: Roboto, sans-serif;
+	font-size: 15px;
+	color: rgb(119,119,119);
+	text-align: center;
+	line-height: 1.5;
+	font-weight: 500;
+}
+
+.ourblog-post-area-top-img{
+	float: left;
+	width: 550px;
+	height: 100px;
+	margin-left: 265px;
+}
+
+.ourblog-post-area-top-img ul{
+	list-style: none;
+	display: inline-flex;
+	margin-top: -50px;
+}
+
+.ourblog-post-area-top-img li{
+	margin-left: 15px;
+}
+
+/*--------------End Top CSS ourblog-post-area-------------*/
+
+/*--------------Start Middel CSS ourblog-post-area-------------*/
+
+.ourblog-post-area-middel{
+	float: left;
+	width: 680px;
+	height: 250px;
+	margin-left:200px;
+}
+
+.ourblog-post-area-middel h4{
+	text-align: center;
+	font-family: Roboto, sans-serif;
+	color: rgb(119,119,119);
+}
+
+.ourblog-post-area-middel h2{
+	text-align: center;
+	font-family: "Playfair Display", serif;
+	font-size: 60px;
+	margin-top: 0;
+}
+
+.ourblog-post-area-middel p{
+	text-align: center;
+	margin-top: -30px;
+	font-family: Roboto, sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 1.5;
+	color: rgb(119,119,119);
+}
+
+/*--------------Startnd  Down CSS ourblog-post-area-------------*/
+
+.ourblog-post-area-down{
+	float: left;
+	width: 1080px;
+	height: 700px;
+	margin-top: 70px;
+}
+
+.ourblog-post-area-down-section-1{
+	float: left;
+	width: 338px;
+	height: 550px;
+}
+
+.ourblog-post-area-down-section-2{
+	float: left;
+	width: 338px;
+	height: 550px;
+	margin-left: 30px;
+}
+
+.ourblog-post-area-down-section-3{
+	float: left;
+	width: 338px;
+	height: 550px;
+	margin-left: 30px;
+}
+
+
+.ourblog-post-area-down-section-1 .button{
+	width: 75px;
+	height: 32px;
+	margin-top: 15px;
+	font-size: 12px;
+	color: white;
+	background-color: #4d8eff;
+	border: none;
+}
+
+.ourblog-post-area-down-section-1 .button:hover{
+	color: #4d8eff;
+	border: 1px solid #4d8eff;
+	background-color:rgb(249, 249, 249) ;
+}
+
+
+.ourblog-post-area-down-section-1 .date-a{
+	margin-top: 15px;
+	margin-left: 68px;
+	font-family: Roboto, sans-serif;
+	text-decoration: none;
+	font-size: 12px;
+	font-weight: 500;
+	color: rgb(119,119,119);
+}
+
+
+.ourblog-post-area-down-section-1 .comments-a{
+	margin-top: 15px;
+	margin-left: 20px;
+	font-family: Roboto, sans-serif;
+	text-decoration: none;
+	font-size: 12px;
+	font-weight: 500;
+	color: rgb(119,119,119);
+}
+
+
+.ourblog-post-area-down-section-1 h4 a{
+	text-decoration: none;
+	font-family:"Playfair Display", serif;
+	font-size: 19px;
+	font-weight: 600;
+	color: black;
+}
+
+.ourblog-post-area-down-section-1 h4 a:hover{
+	color: RGB(77, 142, 255);
+}
+
+
+.ourblog-post-area-down-section-1 span a{
+	text-decoration: none;
+	font-size: 16px;
+	font-family: Roboto, sans-serif;
+	font-weight: 500;
+	color: rgb(119, 119, 119);
+	line-height: 1.5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.ourblog-post-area-down-section-2 .button{
+	width: 75px;
+	height: 32px;
+	margin-top: 15px;
+	font-size: 12px;
+	color: white;
+	background-color: #4d8eff;
+	border: none;
+}
+
+.ourblog-post-area-down-section-2 .button:hover{
+	color: #4d8eff;
+	border: 1px solid #4d8eff;
+	background-color:rgb(249, 249, 249) ;
+}
+
+
+.ourblog-post-area-down-section-2 .date-a{
+	margin-top: 15px;
+	margin-left: 68px;
+	font-family: Roboto, sans-serif;
+	text-decoration: none;
+	font-size: 12px;
+	font-weight: 500;
+	color: rgb(119,119,119);
+}
+
+
+.ourblog-post-area-down-section-2 .comments-a{
+	margin-top: 15px;
+	margin-left: 20px;
+	font-family: Roboto, sans-serif;
+	text-decoration: none;
+	font-size: 12px;
+	font-weight: 500;
+	color: rgb(119,119,119);
+}
+
+.ourblog-post-area-down-section-2 h4 a{
+	text-decoration: none;
+	font-family:"Playfair Display", serif;
+	font-size: 19px;
+	font-weight: 600;
+	color: black;
+}
+
+.ourblog-post-area-down-section-2 h4 a:hover{
+	color: RGB(77, 142, 255);
+}
+
+.ourblog-post-area-down-section-2 span a{
+	text-decoration: none;
+	font-size: 16px;
+	font-family: Roboto, sans-serif;
+	font-weight: 500;
+	color: rgb(119, 119, 119);
+	line-height: 1.5;
+}
+
+
+
+
+
+
+
+.ourblog-post-area-down-section-3 .button{
+	width: 75px;
+	height: 32px;
+	margin-top: 15px;
+	font-size: 12px;
+	color: white;
+	background-color: #4d8eff;
+	border: none;
+}
+
+.ourblog-post-area-down-section-3 .button:hover{
+	color: #4d8eff;
+	border: 1px solid #4d8eff;
+	background-color:rgb(249, 249, 249) ;
+}
+
+
+.ourblog-post-area-down-section-3 .date-a{
+	margin-top: 15px;
+	margin-left: 68px;
+	font-family: Roboto, sans-serif;
+	text-decoration: none;
+	font-size: 12px;
+	font-weight: 500;
+	color: rgb(119,119,119);
+}
+
+
+.ourblog-post-area-down-section-3 .comments-a{
+	margin-top: 15px;
+	margin-left: 20px;
+	font-family: Roboto, sans-serif;
+	text-decoration: none;
+	font-size: 12px;
+	font-weight: 500;
+	color: rgb(119,119,119);
+}
+
+.ourblog-post-area-down-section-3 h4 a{
+	text-decoration: none;
+	font-family:"Playfair Display", serif;
+	font-size: 19px;
+	font-weight: 600;
+	color: black;
+}
+
+.ourblog-post-area-down-section-3 h4 a:hover{
+	color: RGB(77, 142, 255);
+}
+
+.ourblog-post-area-down-section-3 span a{
+	text-decoration: none;
+	font-size: 16px;
+	font-family: Roboto, sans-serif;
+	font-weight: 500;
+	color: rgb(119, 119, 119);
+	line-height: 1.5;
+}
+
+/*--------------End CSS ourblog-post-area-------------*/
+
+
+
+.footer-section{
+	float: left;
+	width: 1080px;
+	height: 500px;
+	background-image: url(../img/footer-bg.png);
+}
+
+
+.footer-box-1{
+	float: left;
+	width: 250px;
+	height: 300px;
+	margin-top: 50px;
+	margin-left: 30px;
+}
+
+.footer-box-1 h6{
+	font-family:"Playfair Display", serif;
+	font-size: 20px;
+	font-weight: 600;
+	color: rgb(255, 255, 255);
+}
+
+.footer-box-1 p{
+	color: rgb(119, 119, 119);
+	font-family:Roboto, sans-serif;
+	font-size: 15px;
+	font-weight: 600;
+	line-height: 1.5;
+	margin-top:-20px;
+}
+
+.footer-box-2{
+	float: left;
+	width: 250px;
+	height: 300px;
+	margin-top: 50px;
+}
+
+.footer-box-2 h6{
+	font-family:"Playfair Display", serif;
+	font-size: 20px;
+	font-weight: 600;
+	margin-left: 10px;
+	color: rgb(255, 255, 255);
+}
+
+.footer-box-2 ul{
+	list-style: none;
+	margin-left: -25px;
+	margin-top: -30px;
+}
+
+.footer-box-2 a{
+	text-decoration: none;
+	color: rgb(119, 119, 119);
+	font-family:Roboto, sans-serif;
+	font-size: 15px;
+	font-weight: 600;
+	line-height: 2.5;
+}
+
+.footer-box-3{
+	float: left;
+	width: 260px;
+	height: 300px;
+	margin-top: 50px;
+	margin-left: 10px;
+}
+
+.footer-box-3 h6{
+	font-family:"Playfair Display", serif;
+	font-size: 20px;
+	font-weight: 600;
+	color: rgb(255, 255, 255);
+}
+
+.footer-box-3 p{
+	color: rgb(119, 119, 119);
+	font-family:Roboto, sans-serif;
+	font-size: 15px;
+	font-weight: 600;
+	line-height: 1.5;
+	margin-top:-20px;
+}
+
+.footer-box-3 .footer-input{
+	width: 155px;
+	height: 35px;
+	color: white;
+	background-color:rgb(34, 27, 20) ;
+	border: 1px solid rgb(119, 119, 119);
+}
+
+::placeholder {
+  color: white;
+  opacity: 1; /* Firefox */
+}
+
+input[type="Email"]{
+	padding-left: 20px;
+}
+
+
+.button-2{
+	background-image: url(../img/input.png);
+	width: 38px;
+	height: 38px;
+	border: none;
+	margin-top: 3px;
+}
+
+.footer-box-4{
+	float: left;
+	width: 260px;
+	height: 300px;
+	margin-top: 50px;
+}
+
+.footer-box-4 h6{
+	font-family:"Playfair Display", serif;
+	font-size: 20px;
+	font-weight: 600;
+	color: rgb(255, 255, 255);
+	margin-left: 20px;
+}
+
+
+.footer-section-down{
+	float: left;
+	width: 1080px;
+	height: 50px;
+}
+
+.footer-section-down-left{
+	float: left;
+	width: 776px;
+	height: 50px;
+}
+
+.footer-section-down-left p{
+	color: rgb(119, 119, 119);
+	font-family:Roboto, sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	margin-left: 27px;
+}
+
+.footer-section-down-left a{
+	text-decoration: none;
+	font-weight: 500;
+	font-family:Roboto, sans-serif;
+	font-size: 16px;
+	color: rgb(77, 142, 255);
+}
+
+.footer-section-down-left i{
+	color: rgb(77, 142, 255);
+}
+
+.footer-section-down-right{
+	float: left;
+	width: 300px;
+	height: 50px;
+}
+
+.footer-section-down-right i{
+	margin-left: 20px;
+}
+
+.footer-section-down-right a {
+	color: #cccccc;
+}
+
+.footer-section-down-right a:hover {
+	color: rgb(77, 142, 255);
+}
